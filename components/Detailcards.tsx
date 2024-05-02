@@ -4,10 +4,10 @@ const Detailcards = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 mb-12 max-w-7xl mx-auto w-full md:w-[70vw] ">
       <div>
-      <div className="w-full h-[50%] ">
-        <a
+      <div className="w-full h-[3O%] ">
+      <a
           href="#"
-          className="flex flex-col p-5 bg-blue-600 border-blue-700 rounded-3xl shadow-lg hover:bg-blue-700 dark:bg-blue-700 dark:border-gray-700 dark:hover:bg-blue-800"
+          className="h-full flex flex-col p-5 bg-blue-600 border-blue-700 rounded-3xl shadow-lg hover:bg-blue-700 dark:bg-blue-700 dark:border-gray-700 dark:hover:bg-blue-800"
         >
           <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight text-white">
             Trades Details
@@ -25,10 +25,10 @@ const Detailcards = () => {
           />
         </a>
       </div>
-      <div className="w-full h-[50%] ">
-        <a
+      <div className="w-full h-[3O%]">
+      <a
           href="#"
-          className="flex flex-col p-5 bg-light border-blue-500 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
+          className="h-full mt-2 flex flex-col p-5 bg-light border-blue-3O0 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">
             Daily Insights
@@ -46,11 +46,11 @@ const Detailcards = () => {
         </a>
       </div>
       </div>
-      <div className="md:mt-[8rem] mt-[0.5rem] ">
-      <div className="flex pb-5 justify-start"style={{width:"100%", maxHeight:"50%"}}>
-        <a
+      <div className="">
+      <div className="md:mt-32 w-full h-[3O%]">
+      <a
           href="#"
-          className="flex flex-col  p-5 bg-[#DBE4FD] border-gray-400 rounded-3xl shadow-lg hover:bg-gray-300 dark:bg-gray-300 dark:border-gray-400 dark:hover:bg-gray-400 md:mt-0 "
+          className="h-full flex flex-col  p-5 bg-[#DBE4FD] border-gray-400 rounded-3xl shadow-lg hover:bg-gray-300 dark:bg-gray-300 dark:border-gray-400 dark:hover:bg-gray-400 md:mt-0 "
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight" style={{ color: "#182853" }}>
             Create Your Team
@@ -68,10 +68,10 @@ const Detailcards = () => {
           />
         </a>
       </div>
-      <div className="flex"style={{width:"100%",minHeight:"50%"}}>
-        <a
+      <div className="w-full h-[3O%]">
+      <a
           href="#"
-          className="flex flex-col p-5 bg-black text-white border border-white rounded-3xl shadow-lg hover:bg-gray-700 dark:bg-black dark:border-gray-800 dark:hover:bg-gray-700"
+          className="mt-2 h-full flex flex-col p-5 bg-black text-white border border-white rounded-3xl shadow-lg hover:bg-gray-700 dark:bg-black dark:border-gray-800 dark:hover:bg-gray-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Traders LeaderBoard</h5>
           <p className="font-normal text-white">
@@ -79,7 +79,9 @@ const Detailcards = () => {
             with fellow traders, track your performance, and see how you stack
             up on the dynamic Leaderboard.
           </p>
-          <img src="card4.png" alt="image" className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1" />
+          <img src="card4.png" 
+          alt="image" 
+          className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1" />
         </a>
       </div>
       </div>
