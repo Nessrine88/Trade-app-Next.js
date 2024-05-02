@@ -28,7 +28,7 @@ const Detailcards = () => {
       <div className="w-full h-[3O%]">
       <a
           href="#"
-          className="h-full mt-2 flex flex-col p-5 bg-light border-blue-3O0 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
+          className="h-full mt-5 flex flex-col p-5 bg-light border-blue-3O0 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">
             Daily Insights
@@ -71,7 +71,7 @@ const Detailcards = () => {
       <div className="w-full h-[3O%]">
       <a
           href="#"
-          className="mt-2 h-full flex flex-col p-5 bg-black text-white border border-white rounded-3xl shadow-lg hover:bg-gray-700 dark:bg-black dark:border-gray-800 dark:hover:bg-gray-700"
+          className="mt-5 h-full flex flex-col p-5 bg-black text-white border border-white rounded-3xl shadow-lg hover:bg-gray-700 dark:bg-black dark:border-gray-800 dark:hover:bg-gray-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Traders LeaderBoard</h5>
           <p className="font-normal text-white">

@@ -12,7 +12,7 @@ const BeforeFooter = () => {
               <span className="font-extrabold text-black">Edge</span>
               <span className="font-extrabold text-blue-500">tracker</span>
             </div>
-            <p className="regular-14 mt-4 text-xs">
+            <p className="regular-14 mt-4 text-sm">
               The information provided on this trading journal website is for
               educational and informational purposes only. It is not intended
               as financial or investment advice. Trading in financial markets
