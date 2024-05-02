@@ -2,10 +2,10 @@ import React from "react";
 
 const Figures = () => {
   return (
-    <div className="z-5 w-full md:w-[70vw] flex flex-wrap justify-between bg-[rgba(255, 0, 0, 0.5)]">
+    <div className="md:my-32 z-5 w-full md:w-[70vw] flex flex-wrap justify-between items-center bg-[rgba(255, 0, 0, 0.5)]">
       {/* Centered container */}
-      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] ">
-        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem" }}>
+      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] justify-center">
+        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem !important" }}>
           {/* Centered content */}
           <img src="img3.png" className="w-8 h-8 me-3" alt="" />
           <div className="w-full">
@@ -16,8 +16,8 @@ const Figures = () => {
           </div>
         </div>
       </div>
-      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] ">
-        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem" }}>
+      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] justify-center">
+        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem !important" }}>
           <img src="Doller.png" className="w-8 h-8 me-3" alt="" />
           <div className="w-full">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "16px" }}>
@@ -27,8 +27,8 @@ const Figures = () => {
           </div>
         </div>
       </div>
-      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] ">
-        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem" }}>
+      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] justify-center">
+        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem !important" }}>
           <img src="img2.png" className="w-8 h-8 me-3" alt="" />
           <div className="w-full">
             <p className="text-gray-600 text-lg font-small w-full " style={{ fontSize: "16px" }}>
@@ -38,8 +38,8 @@ const Figures = () => {
           </div>
         </div>
       </div>
-      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] ">
-        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem" }}>
+      <div className="my-4 flex-shrink-0 rounded-[10px] overflow-hidden w-full md:w-[22%] justify-center">
+        <div className="bg-white shadow-md px-4 py-3 flex items-center justify-center w-full rounded-[10px]" style={{ height: "4rem !important" }}>
           <img src="img1.png" className="w-8 h-8 me-3" alt="" />
           <div className="w-full ml-2">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "16px" }}>
