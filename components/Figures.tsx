@@ -12,7 +12,7 @@ const Figures = () => {
         >
           {/* Centered content */}
           <img src="img3.png" className="w-6 h-6 me-3" alt="" />
-          <div>
+          <div className="flex flex-col items-start w-[50%]">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "14px" }}>
               Users
             </p>
@@ -26,7 +26,7 @@ const Figures = () => {
           style={{ border: "2px solid white", borderRadius: "25px" }}
         >
           <img src="Doller.png" className="w-6 h-6 me-3" alt="" />
-          <div>
+          <div className="w-[50%]">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "14px" }}>
               Transaction 24h
             </p>
@@ -40,7 +40,7 @@ const Figures = () => {
           style={{ border: "2px solid white", borderRadius: "25px" }}
         >
           <img src="img2.png" className="w-6 h-6 me-3" alt="" />
-          <div>
+          <div className="w-[50%]">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "14px" }}>
               Total Transaction
             </p>
@@ -54,7 +54,7 @@ const Figures = () => {
           style={{ border: "2px solid white", borderRadius: "25px" }}
         >
           <img src="img1.png" className="w-6 h-6 me-3" alt="" />
-          <div>
+          <div className="w-[50%] ml-2">
             <p className="text-gray-600 text-lg font-small" style={{ fontSize: "14px" }}>
               Total Profit
             </p>

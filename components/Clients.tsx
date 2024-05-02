@@ -33,7 +33,7 @@ const Clients = () => {
         </a>
         <a
           href="#"
-          className="ml-4 flex flex-col flex-start md:w-[50%] p-6 bg-light border-white rounded-lg shadow-md hover:bg-white dark:bg-white dark:border-gray-100 dark:hover:bg-white mb-4 md:mb-0"
+          className="md:ml-4 flex flex-col flex-start md:w-[50%] p-6 bg-light border-white rounded-lg shadow-md hover:bg-white dark:bg-white dark:border-gray-100 dark:hover:bg-white mb-4 md:mb-0"
         >
           <p className="font-normal text-black dark:text-black">
             <span className="text-4xl">“</span>
@@ -82,7 +82,7 @@ const Clients = () => {
         </a>
         <a
           href="#"
-          className=" ml-4 flex flex-col flex-start md:w-[50%] p-6 bg-light border-white rounded-lg shadow-md hover:bg-white dark:bg-white dark:border-gray-100 dark:hover:bg-white mb-4 md:mb-0"
+          className=" md:ml-4 flex flex-col flex-start md:w-[50%] p-6 bg-light border-white rounded-lg shadow-md hover:bg-white dark:bg-white dark:border-gray-100 dark:hover:bg-white mb-4 md:mb-0"
         >
           <p className="font-normal text-black dark:text-black">
             <span className="text-4xl">“</span> Build and manage trading teams

@@ -28,7 +28,7 @@ const Detailcards = () => {
       <div className="w-full h-[50%] ">
         <a
           href="#"
-          className="md:mt-[-2.5rem] flex flex-col p-5 bg-light border-blue-500 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
+          className="flex flex-col p-5 bg-light border-blue-500 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">
             Daily Insights

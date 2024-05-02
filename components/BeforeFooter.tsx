@@ -3,7 +3,7 @@ import React from "react";
 const BeforeFooter = () => {
   return (
     <div className=" md:px-8 w-full md:w-[70vw] px-4">
-      <div className="container mx-auto mt-12 py-8 bg-dark max-w-full">
+      <div className="container mx-auto mt-2 py-8 bg-dark max-w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-between">
           <div className="">
           <div className="text-grey-100">

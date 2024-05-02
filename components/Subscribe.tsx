@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className=" md:px-10 lg:px-2 lg:w-[70vw] lg:mt-40 mt-20 w-full m-0">
+    <div className=" md:px-10 lg:px-2 lg:w-[70vw] lg:mt-20 mt-4 w-full m-0">
       {/* Added max-w-screen-xl for full-screen layout */}
       <div className="mt-4">
         {/* Added margin top for space */}
