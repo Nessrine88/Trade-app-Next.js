@@ -79,7 +79,7 @@ const Detailcards = () => {
             with fellow traders, track your performance, and see how you stack
             up on the dynamic Leaderboard.
           </p>
-          <img src="card4.png" 
+          <img src="star.png" 
           alt="image" 
           className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1" />
         </a>
