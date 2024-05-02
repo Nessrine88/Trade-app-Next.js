@@ -2,9 +2,10 @@ import React from "react";
 
 const BeforeFooter = () => {
   return (
-    <div className=" md:px-8 "style={{width:"70vw"}}>
+    <div className=" md:px-8 w-full md:w-[70vw] px-4">
       <div className="container mx-auto mt-12 py-8 bg-dark max-w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-between">
+          <div className="">
           <div className="text-grey-100">
             <div className="flex items-center">
               <img src="logo.png" className="w-9 h-9" alt="" />
@@ -20,6 +21,8 @@ const BeforeFooter = () => {
             </p>
             {/* Additional paragraphs */}
           </div>
+          </div>
+          <div className="flex justify-around md:w-[50vw] ">
           <div className="text-black flex items-start flex-col">
             <h1 className="font-extrabold">Company</h1>
             <ul className="mt-6">
@@ -67,6 +70,7 @@ const BeforeFooter = () => {
                 <a href="#" className="hover:underline ml-1">Tiktok</a>
               </li>
             </ul>
+          </div>
           </div>
         </div>
       </div>

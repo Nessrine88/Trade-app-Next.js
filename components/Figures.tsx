@@ -3,19 +3,12 @@ import React from "react";
 const Figures = () => {
   return (
     <div
-      className="max-container  flex flex-wrap justify-center gap-1"
-      style={{
-        width: "70vw"
-        // pointerEvents: "none",
-        // opacity: "0.2",
-        // background: "radial-gradient(circle at 70% 50%, white, blue)"
-      }}
-    >
+      className="max-container w-full lg:w-[70vw] flex flex-wrap justify-center gap-1 bg-[rgba(255, 0, 0, 0.5)]">
       {/* Centered container */}
       <div className="m-4 flex-shrink-0 rounded-lg overflow-hidden w-full md:w-48">
         <div
-          className="bg-light-400 shadow px-4 py-3 flex items-center justify-center h-full"
-          style={{ border: "2px solid white", borderRadius: "25px" }}
+          className="bg-light-400 shadow px-4 py-3 flex items-center justify-center h-full w-full rounded-[25px]"
+          style={{ border: "2px solid white"}}
         >
           {/* Centered content */}
           <img src="img3.png" className="w-6 h-6 me-3" alt="" />

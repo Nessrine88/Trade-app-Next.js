@@ -7,7 +7,6 @@ import Hero from "@/components/Hero";
 import Figures from "@/components/Figures";
 import Detailcards from "@/components/Detailcards";
 import Clients from "@/components/Clients";
-import Clients2 from "@/components/Clients2";
 import Subscribe from "@/components/Subscribe";
 import BeforeFooter from "@/components/BeforeFooter";
 
@@ -33,7 +32,6 @@ export default function RootLayout({
           <Figures />
           <Detailcards />
           <Clients />
-          <Clients2 />
           <Subscribe />
           <BeforeFooter />
           <main className="flex-2">{children}</main>{" "}

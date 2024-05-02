@@ -9,16 +9,14 @@ const Navbar = () => {
       {" "}
       {/* Centering container */}
       <nav
-        className="border border-200 flex items-center justify-between py-5 relative z-30"
-        style={{ backgroundColor: "#ffffff", width: "70vw",  borderRadius: "0 0 1.5rem 1.5rem"}}
+        className="border border-gray-200 flex items-center justify-between py-5 relative z-30  lg:w-[70vw] md:w-[70vw] w-full" 
+        style={{ backgroundColor: "#ffffff", borderRadius: "0 0 1.5rem 1.5rem" }}
       >
         <div className="flex items-center">
           <img
             src="/logo.png"
             alt="Logo"
-            width={50}
-            height={29}
-            className="mr-8 ml-4"
+            className="lg:w-[50px] lg:h-[50px] mr-8 ml-4 w-9 h-9"
           />
           <div
             style={{
@@ -50,16 +48,14 @@ const Navbar = () => {
 
        
 
-        <div className="flex gap-6 mr-4">
+        <div className="flex gap-1 mr-7">
           {" "}
           {/* Adjusted the left margin */}
-          <button className="underline bg-white text-black px-4 py-2 rounded">
+          <button className="lg:text-base md:text-base underline bg-white text-black py-2 rounded text-sm px-2">
             Login
           </button>
           <button
-            className="bg-blue-500 text-white px-4 py-2 btn-round"
-            style={{ backgroundColor: "#1d4ed8" }}
-          >
+            className="lg:text-base md:text-base text-white lg:px-4 lg:py-2  py-2 btn-round text-xs px-1 bg-[#1d4ed8]">
             Register
           </button>
         </div>

@@ -2,14 +2,14 @@ import React from "react";
 
 const Detailcards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 mb-12 max-w-7xl mx-auto"style={{width:"70vw"}}>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 mb-12 max-w-7xl mx-auto w-full md:w-[70vw] ">
       <div>
-      <div className="pb-5"style={{width:"100%",maxHeight:"50%"}}>
+      <div className="w-full h-[50%] ">
         <a
           href="#"
           className="flex flex-col p-5 bg-blue-600 border-blue-700 rounded-3xl shadow-lg hover:bg-blue-700 dark:bg-blue-700 dark:border-gray-700 dark:hover:bg-blue-800"
         >
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+          <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight text-white">
             Trades Details
           </h5>
           <p className="font-normal text-white dark:text-white">
@@ -21,14 +21,14 @@ const Detailcards = () => {
           <img
             src="card1.png"
             alt="image"
-            className="w-48 mx-auto mt-8 rounded-lg mr-2 pr-1"
+            className="w-[6rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1"
           />
         </a>
       </div>
-      <div className=" "style={{width:"100%",maxHeight:"50%"}}>
+      <div className="w-full h-[50%] ">
         <a
           href="#"
-          className="flex flex-col p-5 bg-light border-blue-500 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
+          className="md:mt-[-2.5rem] flex flex-col p-5 bg-light border-blue-500 rounded-3xl shadow hover:bg-white dark:bg-blue-500 dark:border-gray-700 dark:hover:bg-white-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">
             Daily Insights
@@ -41,12 +41,12 @@ const Detailcards = () => {
           <img
             src="card3.png"
             alt="image"
-            className="w-48 mx-auto mt-8 rounded-lg mr-2 pr-1"
+            className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1"
           />
         </a>
       </div>
       </div>
-      <div className="pt-16">
+      <div className="md:mt-[8rem] mt-[0.5rem] ">
       <div className="flex pb-5 justify-start"style={{width:"100%", maxHeight:"50%"}}>
         <a
           href="#"
@@ -64,7 +64,7 @@ const Detailcards = () => {
           <img
             src="card2.png"
             alt="image"
-            className="w-48 mx-auto mt-4 rounded-lg mr-2 pr-2"
+            className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1"
           />
         </a>
       </div>
@@ -79,7 +79,7 @@ const Detailcards = () => {
             with fellow traders, track your performance, and see how you stack
             up on the dynamic Leaderboard.
           </p>
-          <img src="card4.png" alt="image" className="w-36 mx-auto mt-8 rounded-lg mr-0 pr-0 ml-auto" />
+          <img src="card4.png" alt="image" className="w-[8rem] md:w-[12rem] mx-auto  rounded-lg mr-2 pr-1" />
         </a>
       </div>
       </div>
