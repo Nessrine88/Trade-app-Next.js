@@ -2,7 +2,7 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <div className="flex flex-col items-center md:w-[70vw] w-full ">
+    <div className="md:my-32 flex flex-col items-center md:w-[70vw] w-full ">
       <h4 className="mb-4 text-2xl text-center mt-4 font-bold leading-none tracking-tight text-gray-900 dark:text-black">
         What Our Clients Say About Us
       </h4>

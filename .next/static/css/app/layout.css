@@ -1263,6 +1263,18 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
   .md\:pt-5 {
     padding-top: 1.25rem;
   }
