@@ -4,7 +4,7 @@ const BeforeFooter = () => {
   return (
     <div className=" md:px-8 md:py-5 w-full md:w-[70vw] px-4">
       <div className="container mx-auto mt-2 py-8 bg-dark max-w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="">
           <div className="text-grey-100">
             <div className="flex items-center">
@@ -22,7 +22,7 @@ const BeforeFooter = () => {
             {/* Additional paragraphs */}
           </div>
           </div>
-          <div className="flex justify-around md:w-[50vw] ">
+          <div className="flex justify-between w-[30vw] ">
           <div className="text-black flex items-start flex-col">
             <h1 className="font-extrabold">Company</h1>
             <ul className="mt-6">
