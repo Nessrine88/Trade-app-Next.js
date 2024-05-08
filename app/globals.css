@@ -26,10 +26,11 @@ body {
   background: #ffffff;
   overflow: auto;
   height: 100vh;
-  background-image: url('/bgImg.jpg');
+  background-image: url('/Bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 
 /* Utility Classes */
