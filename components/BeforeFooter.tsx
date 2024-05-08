@@ -22,7 +22,7 @@ const BeforeFooter = () => {
             {/* Additional paragraphs */}
           </div>
           </div>
-          <div className="flex justify-between w-[30vw] ">
+          <div className="flex justify-between md:w-[30vw] ">
           <div className="text-black flex items-start flex-col">
             <h1 className="font-extrabold">Company</h1>
             <ul className="mt-6">
